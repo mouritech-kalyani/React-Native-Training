@@ -20,7 +20,7 @@ const Login = () => {
         {/* <Icon name="twitter" size={20} /> */}
       </View>
       <View style={styles.form}>
-        <TextInput style={styles.inputFormItems} placeholder="Username " />
+        {/* <TextInput style={styles.inputFormItems} placeholder="Username " /> */}
         <TextInput style={styles.inputFormItems} placeholder="Email " />
         <TextInput
           style={styles.inputFormItems}

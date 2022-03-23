@@ -77,6 +77,48 @@ const Landingpage = ({navigation}) => {
           }}
         />
       </View>
+      <View style={styles.subContainer}>
+        <Button
+          title="Eight Assignment - Redux"
+          onPress={() => {
+            navigation.navigate('Shopping');
+          }}
+        />
+      </View>
+      <View style={styles.subContainer}>
+        <Button
+          title="Wishlists"
+          onPress={() => {
+            navigation.navigate('Wishlist');
+          }}
+        />
+      </View>
+      <View style={styles.subContainer}>
+        <Button
+          title="Redux-Saga"
+          onPress={() => {
+            navigation.navigate('Products');
+          }}
+        />
+      </View>
+      
+      <View style={styles.subContainer}>
+        <Button
+          title="Test Log in Screen"
+          onPress={() => {
+            navigation.navigate('TestLogin');
+          }}
+        />
+      </View>
+      <View style={styles.subContainer}>
+        <Button
+          title="Test Dummy Screen"
+          onPress={() => {
+            navigation.navigate('DummyPage',{name:"Kalyani"});
+          }}
+        />
+      </View>
+
     </View>
     </ScrollView>
   );
